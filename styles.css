@@ -1,0 +1,95 @@
+:root {
+  /* Grayscale */
+  --able-gray-10: #141414;  
+  --able-gray-20: #2D2D2D;  
+  --able-gray-30: #3C3C3C;  
+  --able-gray-40: #484848;  
+  --able-gray-50: #646464;  
+
+  /* Text */
+  --able-text: #c6c6c6;     
+
+  /* Vibrant accents */
+  --able-hot-pink: #FF39D4;     
+  --able-fuchsia-tom: #FF2B6F;  
+  --able-peach: #FFA374;        
+  --able-coral: #FF94A6;        
+  --able-cyan: #19E9FF;         
+  --able-aqua: #5CFFE8;         
+  --able-orange: #F39420;       
+  --able-lemon: #FFF034;        
+  --able-pale-yellow: #F7F47C;  
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: var(--able-gray-30);
+    background-color: var(--able-text);
+    font-family: Jost;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 100px;;
+}
+
+.borderCol {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border-top: 1px solid var(--able-gray-30);
+    border-bottom: 1px solid var(--able-gray-30);
+    
+    
+}
+
+button {
+/* Färger */
+    color: var(--able-text);
+    background-color: var(--able-gray-30);
+
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    cursor: pointer;
+
+    display: inline-block;
+    font: inherit; 
+    text-align: center;
+    font-size: 25px;;
+
+    
+    width: 100px;
+    height: 50px;
+    line-height: 60px; 
+    font-weight: 500;
+    border-radius: 5px;;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+button:active {
+    background-color: var(--able-fuchsia-tom);
+}
